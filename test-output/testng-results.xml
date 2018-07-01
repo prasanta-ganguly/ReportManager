@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15914" started-at="2018-07-01T01:13:54Z" finished-at="2018-07-01T01:14:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15914" started-at="2018-07-01T01:13:54Z" finished-at="2018-07-01T01:14:10Z">
+      <class name="com.testcases.LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testcases.LoginTest@77ec78b9]" name="openBrowser" is-config="true" duration-ms="5829" started-at="2018-07-01T06:43:54Z" finished-at="2018-07-01T06:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="getUrl()[pri:0, instance:com.testcases.LoginTest@77ec78b9]" name="getUrl" duration-ms="1733" started-at="2018-07-01T06:44:00Z" finished-at="2018-07-01T06:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testcases.LoginTest@77ec78b9]" name="login" duration-ms="5425" started-at="2018-07-01T06:44:02Z" depends-on-methods="com.testcases.LoginTest.getUrl" finished-at="2018-07-01T06:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.testcases.LoginTest@77ec78b9]" name="logout" duration-ms="1950" started-at="2018-07-01T06:44:07Z" depends-on-methods="com.testcases.LoginTest.getUrl, com.testcases.LoginTest.login" finished-at="2018-07-01T06:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.LoginTest@77ec78b9]" name="tearDown" is-config="true" duration-ms="959" started-at="2018-07-01T06:44:09Z" finished-at="2018-07-01T06:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
